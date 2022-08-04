@@ -1,0 +1,674 @@
+/* Navbar */
+
+.navbar {
+    border-bottom: 1px solid #B980F0;
+}
+
+
+/* Tombol Login */
+
+.tombol {
+    border-color: #B980F0;
+    color: #B980F0;
+    border-radius: 8px;
+}
+
+.tombol:hover {
+    background-color: #B980F0;
+    color: white;
+    border-color: #B980F0;
+}
+
+
+/* Desktop Version */
+
+@media (min-width: 992px) {
+    /* Navbar */
+    .nav-link {
+        color: black;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #B980F0;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    /* End Navbar */
+    /* Form Login */
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-top: 75px;
+    }
+    .form-group {
+        width: 30%;
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .form-control {
+        border-radius: 5px;
+    }
+    .login {
+        width: 17%;
+        display: block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        text-transform: uppercase;
+        background-color: #A2D2FF;
+        font-weight: bold;
+        border-color: #A2D2FF;
+    }
+    .signup {
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 250px;
+    }
+    .signuphere {
+        font-weight: 500;
+        color: black;
+    }
+    .signuphere:hover {
+        color: #B980F0;
+        text-decoration: none;
+    }
+    .form-control {
+        border-color: black;
+        border-radius: 10px;
+        opacity: 0.7;
+    }
+    /* End Form Login */
+    /* Form Signup */
+    .loginform {
+        margin-top: 147px;
+        margin-bottom: 320px;
+    }
+    .signform {
+        width: 600px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .signupbutton {
+        width: 30%;
+        display: block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+        text-transform: uppercase;
+        background-color: #A2D2FF;
+        font-weight: bold;
+        border-color: #A2D2FF;
+    }
+    .logintext {
+        margin-top: 25px;
+        font-size: 20px;
+        text-align: center;
+    }
+    /* End Form Signup */
+    /* Breadcrumbs */
+    .breadcrumb1 {
+        font-size: 18px;
+        background-color: white;
+    }
+    /* Form Ask */
+    .forum {
+        font-size: 35px;
+        margin-left: 12.2px;
+    }
+    .formask {
+        font-weight: bold;
+        margin-top: 35px;
+        font-size: 25px;
+        width: 85%;
+        margin-left: 12.5px;
+    }
+    .formask1 {
+        font-weight: normal;
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+    .buttonback {
+        margin-top: 50px;
+        background-color: #E5E5E5;
+        border-color: #E5E5E5;
+        border-radius: 10px;
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        width: 200px;
+        height: 60px;
+        text-transform: uppercase;
+        margin-left: 125px;
+    }
+    .buttonask {
+        margin-top: 50px;
+        background-color: #A2D2FF;
+        border-color: #A2D2FF;
+        border-radius: 10px;
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        width: 200px;
+        height: 60px;
+        text-transform: uppercase;
+    }
+    /* End Form Ask */
+    /* Jumbotron */
+    .header {
+        background-size: cover;
+        height: 625px;
+    }
+    /* End Jumbotron */
+    /* Panel About Us */
+    .info-panel {
+        background-color: #B980F0;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 70px;
+        height: 80px;
+    }
+    .gundaroomteam {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 12px;
+        color: white;
+        font-weight: bold;
+    }
+    .pani {
+        margin-top: 55px;
+    }
+    .profil-about {
+        margin-right: 15px;
+        border-radius: 200px;
+        width: 250px;
+        height: 250px;
+        border: 10px solid #B980F0;
+    }
+    .profil-about1 {
+        margin-left: 15px;
+        border-radius: 200px;
+        width: 250px;
+        height: 250px;
+        border: 10px solid #B980F0;
+    }
+    .nama {
+        margin-top: 80px;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .nama1 {
+        margin-top: 80px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: right;
+        text-transform: uppercase;
+    }
+    .tugas {
+        color: #B980F0;
+        font-size: 20px;
+    }
+    .tugas1 {
+        color: #B980F0;
+        text-align: right;
+        font-size: 20px;
+    }
+    /* End Panel About Us */
+    /* Profile */
+    .profile {
+        background-color: #A2D2FF;
+        width: 100%;
+        height: 1100px;
+        padding-top: 75px;
+    }
+    .profileimg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 200px;
+        width: 417px;
+        height: 417px;
+    }
+    .namauser {
+        text-align: center;
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .jurusan {
+        text-align: center;
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .angkatan {
+        text-align: center;
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .tombol-upload {
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 25px;
+        width: 25%;
+        margin-left: 420px;
+    }
+    .buttonlogout {
+        margin-top: 50px;
+        background-color: black;
+        border-color: black;
+        border-radius: 10px;
+        color: #A2D2FF;
+        font-weight: bold;
+        font-size: 30px;
+        width: 250px;
+        height: 60px;
+        text-transform: uppercase;
+        margin-left: 85px;
+        margin-bottom: 50px;
+    }
+    .buttonhomepage {
+        margin-top: 50px;
+        background-color: white;
+        border-color: white;
+        border-radius: 10px;
+        color: #B980F0;
+        font-weight: bold;
+        font-size: 30px;
+        width: 250px;
+        height: 60px;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    /* End Profile */
+    /* Partnership */
+    .partnership {
+        margin-top: 50px;
+        border: 10px solid #B980F0;
+        height: 1105px;
+        width: 100%;
+    }
+    .logopartner {
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .partner {
+        margin-bottom: 45px;
+    }
+    .komunitas {
+        background-color: #B980F0;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 70px;
+        width: 250px;
+        margin-top: 50px;
+        height: 80px;
+    }
+    .imgkontak {
+        margin-top: 200px;
+    }
+    /* End Partnership */
+    /* FAQs */
+    .info-faq {
+        background-color: #B980F0;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 70px;
+        height: 80px;
+        margin-bottom: 125px;
+    }
+    .faq {
+        border-bottom: 1px solid #B980F0;
+        margin-bottom: 35px;
+    }
+    .text-faq {
+        font-weight: 500;
+    }
+    .dropdown {
+        float: right;
+        margin: -2px;
+        background-size: 25px;
+    }
+    /* End FAQs */
+    /* Homepage */
+    .height {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .search {
+        position: relative;
+        box-shadow: 0 0 10px rgba(51, 51, 51, .1);
+        width: 1115px;
+    }
+    .search input {
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4
+    }
+    .search input:focus {
+        box-shadow: none;
+        border: 2px solid #A2D2FF
+    }
+    .search .fa-search {
+        position: absolute;
+        top: 20px;
+        left: 16px
+    }
+    .search button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        height: 50px;
+        width: 110px;
+        background: #A2D2FF;
+        border-color: #A2D2FF;
+        color: black;
+        font-weight: 500;
+    }
+    .question {
+        margin-bottom: 85px;
+        border-radius: 15px;
+        border: 4px solid #B980F0;
+    }
+    .judul {
+        font-size: 30px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .isi {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    .button-comment {
+        background-color: #C4C4C4;
+        color: black;
+        border-color: #C4C4C4;
+        margin-left: 25px;
+        border-radius: 20px;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 25px;
+        height: 45px;
+        box-shadow: none;
+        width: 120px;
+    }
+    .tombol-comment {
+        background-color: #C4C4C4;
+        height: 45px;
+        width: 120px;
+        font-size: 18px;
+        font-weight: 500;
+        border-color: #C4C4C4;
+        color: black;
+        border-radius: 20px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+    .tombol-comment:hover {
+        background-color: #9b9b9b;
+        border-color: #9b9b9b;
+        color: black;
+    }
+    .text-user {
+        margin-top: 18px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .profil-user {
+        margin-top: 18px;
+        margin-left: -50px;
+        width: 32px;
+        height: 32px;
+        border-radius: 200px;
+    }
+    /* End Homepage */
+    /* Event */
+    .fikti {
+        text-align: center;
+        margin-top: 165px;
+        margin-bottom: 65px;
+    }
+    .event {
+        border: 1px solid #B980F0;
+        border-radius: 25px;
+        margin-right: 30px;
+        margin-left: 6px;
+    }
+    .imgevent {
+        border-radius: 25px;
+        width: 312px;
+        height: 320px;
+        margin-top: 30px;
+        margin-bottom: 7.5px;
+    }
+    .title-event {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .garis-event {
+        width: 78%;
+        border-color: black;
+    }
+    .tombol-event {
+        color: white;
+        background-color: #B980F0;
+        border-color: #B980F0;
+        width: 80%;
+        font-size: 20px;
+        height: 48px;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 8px;
+        margin-bottom: 25px;
+    }
+    .tombol-event:hover {
+        background-color: #8e40d6;
+    }
+    .garisevent {
+        margin-top: 50px;
+    }
+    .detail-eventimg {
+        margin-top: 65px;
+        border-radius: 25px;
+        border: 2px solid black;
+    }
+    .detail-eventtext {
+        text-align: center;
+        margin-top: 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 37px;
+    }
+    .detail-kotak {
+        margin-top: 25px;
+        border: 2px solid #B980F0;
+        border-radius: 14px;
+    }
+    .detail-eventdeskripsi {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: justify;
+    }
+    /* End Event */
+    /* Komentar */
+    .breadcrumb2 {
+        font-size: 18px;
+        background-color: white;
+        margin-top: 60px;
+    }
+    .profil-user1 {
+        margin-top: 18px;
+        margin-left: 30px;
+        border-radius: 200px;
+        width: 32px;
+    }
+    .text-user1 {
+        margin-top: 21px;
+        font-size: 18px;
+        font-weight: 400;
+        margin-left: -15px;
+    }
+    .judul-answer {
+        font-size: 30px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .deskripsi-answer {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 25px;
+    }
+    .jawaban {
+        font-size: 30px;
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .garis-event {
+        width: 100%;
+        color: #B980F0;
+        border-color: #B980F0;
+        border-width: 2px;
+    }
+    .answer {
+        margin-bottom: 85px;
+        border-radius: 15px;
+        border: 2px solid #B980F0;
+    }
+    .formanswer {
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 25px;
+        width: 92%;
+        margin-right: 25px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+    .buttonkirim {
+        background-color: #A2D2FF;
+        border-color: #A2D2FF;
+        border-radius: 10px;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        width: 125px;
+        height: 50px;
+        text-transform: uppercase;
+        margin-left: 160px;
+        margin-bottom: 25px;
+    }
+    /* Copyright */
+    .copyright {
+        text-align: center;
+        margin-top: 200px;
+        font-size: 20px;
+    }
+    .copyrightprofile {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    /* End Copyright */
+    /* =================Admin Page================== */
+    /* Data Admin */
+    .tombol-admin {
+        margin-top: 65px;
+        background-color: #B980F0;
+        border-color: #B980F0;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 6px;
+    }
+    .tombol-admin:hover {
+        background-color: #9449db;
+        border-color: #9449db;
+    }
+    .tabel-admin {
+        margin-top: 25px;
+    }
+    .form-admin {
+        width: 50%;
+        margin-top: 25px;
+        font-size: 15px;
+        margin-left: 0px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .akun-admin {
+        margin-top: 35px;
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .tombol-tambah {
+        width: 50%;
+        margin-top: 25px;
+        font-size: 18px;
+        text-transform: uppercase;
+        background-color: #A2D2FF;
+        font-weight: bold;
+        border-color: #A2D2FF;
+    }
+    .form-admin1 {
+        border-radius: 5px;
+    }
+    /* End Data Admin */
+    /* Data User */
+    .tabel-user {
+        margin-top: 65px;
+    }
+    /* End Data User */
+    /* Data Event */
+    .tambah-event {
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    .garis-event1 {
+        width: 85%;
+        margin-left: 5px;
+        border-color: #B980F0;
+        margin-bottom: 30px;
+    }
+    .formevent {
+        font-weight: bold;
+        margin-top: 10px;
+        font-size: 25px;
+        width: 85%;
+        margin-left: 12.5px;
+    }
+}
+
+
+/* End Desktop Version */
